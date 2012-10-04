@@ -1,0 +1,9 @@
+cookbook_paths:
+- cookbooks/
+- cookbooks-override/
+recipes:
+- pivotal_workstation::dmg_databag
+node_attributes:
+  install_dmgs:
+  - alfred
+  - ccmenu
