@@ -1,3 +1,8 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    dmg (1.0.0)
+
 GIT
   remote: https://github.com/myplanetdigital/chef-bash.git
   ref: feature/bash_profile-resource
@@ -7,4 +12,5 @@ GIT
 
 DEPENDENCIES
   bash (>= 0)
+  dmg (>= 0)
 

@@ -6,6 +6,7 @@ site 'http://community.opscode.com/api/v1'
 cookbook "bash",
   :git => "https://github.com/myplanetdigital/chef-bash.git",
   :ref => "feature/bash_profile-resource"
+cookbook "dmg"
 
 # cookbook 'apache2', '>= 1.0.0'
 
