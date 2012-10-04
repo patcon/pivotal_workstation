@@ -1,1 +1,3 @@
-pivotal_workstation_bash_profile_include "ree_settings"
+bash_profile "ree_settings" do
+  user WS_USER
+end

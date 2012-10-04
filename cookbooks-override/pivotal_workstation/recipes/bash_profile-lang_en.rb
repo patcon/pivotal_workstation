@@ -1,1 +1,3 @@
-pivotal_workstation_bash_profile_include "lang_en"
+bash_profile "lang_en" do
+  user WS_USER
+end

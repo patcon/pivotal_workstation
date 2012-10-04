@@ -1,5 +1,7 @@
 include_recipe "pivotal_workstation::git"
-pivotal_workstation_bash_profile_include "git_vim"
+bash_profile "git_vim" do
+  user WS_USER
+end
 
 template "#{WS_HOME}/.gitignore_global" do
   source "gitignore_global.erb"

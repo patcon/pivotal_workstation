@@ -7,7 +7,9 @@ include_recipe "pivotal_workstation::git"
 brew_install("rbenv")
 brew_install("ruby-build")
 
-pivotal_workstation_bash_profile_include "rbenv"
+bash_profile "rbenv" do
+  user WS_USER
+end
 
 node["rbenv"]["rubies"].each do |version, options|
   rbenv_ruby_install version do

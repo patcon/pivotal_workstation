@@ -1,1 +1,3 @@
-pivotal_workstation_bash_profile_include "ctrl-o"
+bash_profile "ctrl-o" do
+  user WS_USER
+end

@@ -1,1 +1,3 @@
-pivotal_workstation_bash_profile_include "aliases"
+bash_profile "aliases" do
+  user WS_USER
+end

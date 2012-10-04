@@ -1,1 +1,3 @@
-pivotal_workstation_bash_profile_include "ctrl-s"
+bash_profile "ctrl-s" do
+  user WS_USER
+end

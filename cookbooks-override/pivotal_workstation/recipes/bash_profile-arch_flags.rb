@@ -1,1 +1,3 @@
-pivotal_workstation_bash_profile_include "arch_flags"
+bash_profile "arch_flags" do
+  user WS_USER
+end

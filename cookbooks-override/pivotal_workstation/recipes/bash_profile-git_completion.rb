@@ -1,1 +1,3 @@
-pivotal_workstation_bash_profile_include "git_completion"
+bash_profile "git_completion" do
+  user WS_USER
+end

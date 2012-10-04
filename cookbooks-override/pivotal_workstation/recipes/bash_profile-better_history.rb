@@ -1,1 +1,3 @@
-pivotal_workstation_bash_profile_include "better_history"
+bash_profile "better_history" do
+  user WS_USER
+end

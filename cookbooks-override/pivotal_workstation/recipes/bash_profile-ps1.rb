@@ -1,1 +1,3 @@
-pivotal_workstation_bash_profile_include "ps1"
+bash_profile "ps1" do
+  user WS_USER
+end
